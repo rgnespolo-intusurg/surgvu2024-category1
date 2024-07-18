@@ -1,6 +1,6 @@
 # Docker image & algorithm submission for Category 1 of SURGVU24
 
-This repository has everything you and your team need to make an algorithm submission for the [SURGVU24 Challenge](https://surgvu24.grand-challenge.org/) Category 2.
+This repository has everything you and your team need to make an algorithm submission for the [SURGVU24 Challenge](https://surgvu24.grand-challenge.org/) Category 1.
 
 Be sure that you have a verified account on Grand Challenge and are accepted as a participant in the SurgToolLoc challenge.
 You should be able to submit your Docker container/algorithm on the challenge website when the submission opens.
@@ -19,7 +19,7 @@ You will need to have [Docker](https://docs.docker.com/) installed on your syste
 
 For category 1 of [SURGVU Challenge](https://surgvu24.grand-challenge.org/) (surgical tool detection) the instructions to generate the Docker container are given below
 
-### Category #2 – Surgical tool detection:  
+### Category #1 – Surgical tool detection:  
 
 The output json file needs to be a dictionary containing the set of tools detected in each frame with its correspondent bounding box corners (x, y), again generating a single json file for each video like given below:  
 
@@ -75,7 +75,7 @@ The output json file needs to be a dictionary containing the set of tools detect
 
 ## Uploading your container to the grand-challenge platform
 
-1. Create a new algorithm [here](https://surgtoolloc.grand-challenge.org/evaluation/challenge/algorithms/create/). Fill in the fields as specified on the form.
+1. Create a new algorithm [here](https://surgvu24.grand-challenge.org/evaluation/challenge/algorithms/create/). Fill in the fields as specified on the form.
 
 2. On the page of your new algorithm, go to `Containers` on the left menu and click `Upload a Container`. Now upload your `.tar.gz` file produced in step 5. 
 
@@ -83,13 +83,13 @@ The output json file needs to be a dictionary containing the set of tools detect
 
 4. WE STRONGLY RECOMMEND that you make at least 1-2 Prelim submissions before August 26th to ensure that your container runs correctly. Start earlier (Aug 19th) so we can help debug issues that may arise, otherwise there will be no opportunities to debug containers during the main submission!
 
-5. To make a submission to one of the test phases. Go to the [SurgToolLoc Challenge](https://surgtoolloc.grand-challenge.org/) and click `Submit`. Under `Algorithm`, choose the algorithm that you just created. Then hit `Save`. After the processing in the backend is done, your submission should show up on the leaderboard if there are no errors.
+5. To make a submission to one of the test phases. Go to the [SurgToolLoc Challenge](https://surgvu24.grand-challenge.org/) and click `Submit`. Under `Algorithm`, choose the algorithm that you just created. Then hit `Save`. After the processing in the backend is done, your submission should show up on the leaderboard if there are no errors.
 
 The figure below indicates the step-by-step of how to upload a container:
 
 ![Alt text](README_files/MICCAI_surgtoolloc_fig.png?raw=true "Flow")
 
-If something does not work for you, please do not hesitate to [contact us](mailto:isi.challenges@intusurg.com) or [add a post in the forum](https://grand-challenge.org/forums/forum/endoscopic-surgical-tool-localization-using-tool-presence-labels-663/). 
+If something does not work for you, please do not hesitate to [contact us](mailto:isi.challenges@intusurg.com) or [add a post in the forum](https://grand-challenge.org/forums/forum/surgical-visual-understanding-723/). 
 
 ## Acknowledgments
 
